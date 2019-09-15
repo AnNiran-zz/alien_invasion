@@ -7,12 +7,12 @@ it is located at each step
 
 When other aliens are encountered in a city, it initiates a fight with one of them
 (chosen randomly if potential opponents are more than 1)
-and that action destorys the alien, all the other aliens, its opponent and the city
+and that action destorys the alien, all the other aliens currently in the city, its opponent and the city
 After that the map status is updated - by removing all routes to the destroyed city from other cities maps
 
-If there are no other aliens encountered in a city - the alien moves on to the next city
+If there are no other aliens encountered in a city - the alien moves on to the next one
 
-At each iteration - XWorld map is updated, and checked if an alien is trapped after the last loop
+At each iteration - XWorld map is updated, as well as is checked if an alien is trapped after the last loop
 
 operate() is the function that manages this process
 Maximum allowed iterations are 10 000
