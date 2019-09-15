@@ -1,0 +1,21 @@
+CityT west=CityS north=CityP south=CityX
+CityD west=CityC south=CityH
+CityF south=CityJ east=CityG west=CityE north=CityB
+CityH west=CityG north=CityD south=CityL
+CityO south=CityS east=CityP north=CityK
+CityP west=CityO north=CityL south=CityT
+CityS east=CityT west=CityR north=CityO south=CityW
+CityK south=CityO east=CityL west=CityJ north=CityG
+CityQ east=CityR south=CityU
+CityR west=CityQ south=CityV east=CityS
+CityW east=CityX west=CityV north=CityS
+CityE east=CityF south=CityI
+CityG east=CityH west=CityF north=CityC south=CityK
+CityJ east=CityK west=CityI north=CityF
+CityL west=CityK north=CityH south=CityP
+CityX west=CityW north=CityT
+CityB east=CityC south=CityF
+CityC east=CityD west=CityB south=CityG
+CityI east=CityJ north=CityE
+CityU north=CityQ east=CityV
+CityV east=CityW west=CityU north=CityR
